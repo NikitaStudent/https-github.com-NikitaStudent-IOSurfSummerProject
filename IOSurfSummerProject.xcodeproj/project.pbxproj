@@ -12,6 +12,7 @@
 		1754DC8D22FDE95200E7E9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1754DC8C22FDE95200E7E9E5 /* Assets.xcassets */; };
 		1754DC9022FDE95200E7E9E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1754DC8E22FDE95200E7E9E5 /* LaunchScreen.storyboard */; };
 		1754DC9D22FDF29B00E7E9E5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754DC9C22FDF29B00E7E9E5 /* FeedViewController.swift */; };
+		1754DC9F22FE02BE00E7E9E5 /* FeedTestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754DC9E22FE02BE00E7E9E5 /* FeedTestCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1754DC8F22FDE95200E7E9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1754DC9122FDE95200E7E9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1754DC9C22FDF29B00E7E9E5 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		1754DC9E22FE02BE00E7E9E5 /* FeedTestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTestCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +66,9 @@
 		1754DC9822FDF1A000E7E9E5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				1754DC9C22FDF29B00E7E9E5 /* FeedViewController.swift */,
 				1754DC8922FDE95100E7E9E5 /* Main.storyboard */,
+				1754DC9C22FDF29B00E7E9E5 /* FeedViewController.swift */,
+				1754DC9E22FE02BE00E7E9E5 /* FeedTestCell.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			files = (
 				1754DC9D22FDF29B00E7E9E5 /* FeedViewController.swift in Sources */,
 				1754DC8622FDE95100E7E9E5 /* AppDelegate.swift in Sources */,
+				1754DC9F22FE02BE00E7E9E5 /* FeedTestCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YKH5LRXZSC;
-				INFOPLIST_FILE = IOSurfSummerProject/Info.plist;
+				INFOPLIST_FILE = IOSurfSummerProject/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,7 +330,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YKH5LRXZSC;
-				INFOPLIST_FILE = IOSurfSummerProject/Info.plist;
+				INFOPLIST_FILE = IOSurfSummerProject/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
