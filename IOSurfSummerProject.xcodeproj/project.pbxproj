@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1754DC8622FDE95100E7E9E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754DC8522FDE95100E7E9E5 /* AppDelegate.swift */; };
-		1754DC8822FDE95100E7E9E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754DC8722FDE95100E7E9E5 /* ViewController.swift */; };
 		1754DC8B22FDE95100E7E9E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1754DC8922FDE95100E7E9E5 /* Main.storyboard */; };
 		1754DC8D22FDE95200E7E9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1754DC8C22FDE95200E7E9E5 /* Assets.xcassets */; };
 		1754DC9022FDE95200E7E9E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1754DC8E22FDE95200E7E9E5 /* LaunchScreen.storyboard */; };
+		1754DC9D22FDF29B00E7E9E5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754DC9C22FDF29B00E7E9E5 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1754DC8222FDE95100E7E9E5 /* IOSurfSummerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSurfSummerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1754DC8522FDE95100E7E9E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1754DC8722FDE95100E7E9E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1754DC8A22FDE95100E7E9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1754DC8C22FDE95200E7E9E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1754DC8F22FDE95200E7E9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1754DC9122FDE95200E7E9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1754DC9C22FDF29B00E7E9E5 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,38 @@
 		1754DC8422FDE95100E7E9E5 /* IOSurfSummerProject */ = {
 			isa = PBXGroup;
 			children = (
-				1754DC8522FDE95100E7E9E5 /* AppDelegate.swift */,
-				1754DC8722FDE95100E7E9E5 /* ViewController.swift */,
-				1754DC8922FDE95100E7E9E5 /* Main.storyboard */,
-				1754DC8C22FDE95200E7E9E5 /* Assets.xcassets */,
-				1754DC8E22FDE95200E7E9E5 /* LaunchScreen.storyboard */,
-				1754DC9122FDE95200E7E9E5 /* Info.plist */,
+				1754DC9822FDF1A000E7E9E5 /* Screens */,
+				1754DC9A22FDF1DA00E7E9E5 /* Resources */,
+				1754DC9B22FDF20000E7E9E5 /* Application */,
 			);
 			path = IOSurfSummerProject;
+			sourceTree = "<group>";
+		};
+		1754DC9822FDF1A000E7E9E5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1754DC9C22FDF29B00E7E9E5 /* FeedViewController.swift */,
+				1754DC8922FDE95100E7E9E5 /* Main.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1754DC9A22FDF1DA00E7E9E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1754DC8C22FDE95200E7E9E5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1754DC9B22FDF20000E7E9E5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1754DC8E22FDE95200E7E9E5 /* LaunchScreen.storyboard */,
+				1754DC8522FDE95100E7E9E5 /* AppDelegate.swift */,
+				1754DC9122FDE95200E7E9E5 /* Info.plist */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1754DC8822FDE95100E7E9E5 /* ViewController.swift in Sources */,
+				1754DC9D22FDF29B00E7E9E5 /* FeedViewController.swift in Sources */,
 				1754DC8622FDE95100E7E9E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
